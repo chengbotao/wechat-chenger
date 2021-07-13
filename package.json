@@ -1,0 +1,35 @@
+{
+  "name": "wechaty-chenger",
+  "version": "1.0.0",
+  "description": "chenger",
+  "main": "index.js",
+  "repository": "https://gitee.com/chengbotao/wechaty-chenger.git",
+  "author": "chengbotao <chengbotao5221@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version",
+    "commit": "npx git cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "commitizen": "^4.2.4",
+    "commitlint-config-cz": "^0.13.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.3.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
